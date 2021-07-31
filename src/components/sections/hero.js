@@ -10,35 +10,29 @@ const StyledHeroSection = styled.section`
   flex-direction: column;
   align-items: flex-start;
   min-height: 100vh;
-  padding: 0;
-
+  padding: 150px 0;
   @media (max-width: 480px) and (min-height: 700px) {
     padding-bottom: 10vh;
   }
-
   h1 {
     margin: 0 0 30px 4px;
     color: var(--green);
     font-family: var(--font-mono);
     font-size: clamp(var(--fz-sm), 5vw, var(--fz-md));
     font-weight: 400;
-
     @media (max-width: 480px) {
       margin: 0 0 20px 2px;
     }
   }
-
   h3 {
     margin-top: 10px;
     color: var(--slate);
     line-height: 0.9;
   }
-
   p {
     margin: 20px 0 0;
     max-width: 540px;
   }
-
   .email-link {
     ${({ theme }) => theme.mixins.bigButton};
     margin-top: 50px;
@@ -59,21 +53,37 @@ const Hero = () => {
   }, []);
 
   const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Brittany Chiang.</h2>;
-  const three = <h3 className="big-heading">I build things for the web.</h3>;
+  const two = <h2 className="big-heading">Piyush Pandey.</h2>;
+  const three = <h3 className="big-heading">I love exploring new things.</h3>;
   const four = (
-    <p>
-      I'm a software engineer specializing in building (and occasionally designing) exceptional
-      digital experiences. Currently, I'm focused on building accessible, human-centered products at{' '}
-      <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
-        Upstatement
-      </a>
-      .
-    </p>
+    <div>
+      <p>
+        I'm an India based developer with a goal-driven creative mindset and passion for learning
+        and innovating.
+      </p>
+
+      <p>
+        Currently I am pursuing B.Tech in Computer Science Engineering at{' '}
+        <a href="https://bvucoepune.edu.in/" target="_blank" rel="noreferrer">
+          Bharati Vidyapeeth College of Enginnering, Pune
+        </a>
+      </p>
+      <p>
+        Outside work, I share tech content and resources on{' '}
+        <a href="https://twitter.com/Piyushp00" target="_blank" rel="noreferrer">
+          Twitter
+        </a>{' '}
+        or create amateur #PureCSS{' '}
+        <a href="https://codepen.io/piyushp00" target="_blank" rel="noreferrer">
+          Codepen
+        </a>
+        . Off-screen, I love to read books and I also love rockets.🚀🚀
+      </p>
+    </div>
   );
   const five = (
     <a href={`mailto:${email}`} className="email-link">
-      Get In Touch
+      Hire Me
     </a>
   );
 

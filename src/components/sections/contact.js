@@ -8,11 +8,9 @@ const StyledContactSection = styled.section`
   max-width: 600px;
   margin: 0 auto 100px;
   text-align: center;
-
   @media (max-width: 768px) {
     margin: 0 auto 50px;
   }
-
   .overline {
     display: block;
     margin-bottom: 20px;
@@ -20,21 +18,17 @@ const StyledContactSection = styled.section`
     font-family: var(--font-mono);
     font-size: var(--fz-md);
     font-weight: 400;
-
     &:before {
       bottom: 0;
       font-size: var(--fz-sm);
     }
-
     &:after {
       display: none;
     }
   }
-
   .title {
     font-size: clamp(40px, 5vw, 60px);
   }
-
   .email-link {
     ${({ theme }) => theme.mixins.bigButton};
     margin-top: 50px;
@@ -60,12 +54,12 @@ const Contact = () => {
       <h2 className="title">Get In Touch</h2>
 
       <p>
-        Although I'm not currently looking for any new opportunities, my inbox is always open.
-        Whether you have a question or just want to say hi, I'll try my best to get back to you!
+        My inbox is always open. Whether you have a question or just want to say hello, I'll try my
+        best to get back to you! Feel free to mail me about any relevant job updates.
       </p>
 
       <a className="email-link" href={`mailto:${email}`}>
-        Say Hello
+        Mail me
       </a>
     </StyledContactSection>
   );

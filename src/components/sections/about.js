@@ -7,12 +7,10 @@ import { usePrefersReducedMotion } from '@hooks';
 
 const StyledAboutSection = styled.section`
   max-width: 900px;
-
   .inner {
     display: grid;
     grid-template-columns: 3fr 2fr;
     grid-gap: 50px;
-
     @media (max-width: 768px) {
       display: block;
     }
@@ -27,14 +25,13 @@ const StyledText = styled.div`
     margin: 20px 0 0 0;
     overflow: hidden;
     list-style: none;
-
     li {
+      color: var(--green);
       position: relative;
       margin-bottom: 10px;
       padding-left: 20px;
       font-family: var(--font-mono);
       font-size: var(--fz-xs);
-
       &:before {
         content: '▹';
         position: absolute;
@@ -49,12 +46,10 @@ const StyledText = styled.div`
 const StyledPic = styled.div`
   position: relative;
   max-width: 300px;
-
   @media (max-width: 768px) {
     margin: 50px auto 0;
     width: 70%;
   }
-
   .wrapper {
     ${({ theme }) => theme.mixins.boxShadow};
     display: block;
@@ -62,23 +57,19 @@ const StyledPic = styled.div`
     width: 100%;
     border-radius: var(--border-radius);
     background-color: var(--green);
-
     &:hover,
     &:focus {
       background: transparent;
       outline: 0;
-
       &:after {
         top: 15px;
         left: 15px;
       }
-
       .img {
         filter: none;
         mix-blend-mode: normal;
       }
     }
-
     .img {
       position: relative;
       border-radius: var(--border-radius);
@@ -86,7 +77,6 @@ const StyledPic = styled.div`
       filter: grayscale(100%) contrast(1);
       transition: var(--transition);
     }
-
     &:before,
     &:after {
       content: '';
@@ -97,14 +87,12 @@ const StyledPic = styled.div`
       border-radius: var(--border-radius);
       transition: var(--transition);
     }
-
     &:before {
       top: 0;
       left: 0;
       background-color: var(--navy);
       mix-blend-mode: screen;
     }
-
     &:after {
       border: 2px solid var(--green);
       top: 20px;
@@ -126,7 +114,18 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'React', 'Eleventy', 'Vue', 'Node.js', 'WordPress'];
+  const skills = [
+    'React',
+    'Node.js',
+    'MongoDB',
+    'Firebase',
+    'C++',
+    'Python',
+    'JavaScript',
+    'Git',
+    'Linux',
+    'SQL',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -136,21 +135,25 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Hello! Interestingly, I have been a student of Maths in my high school and got
+              introduced to programming in my freshman year at {''}
+              <a href="https://bvucoepune.edu.in/">BVUCOE, Pune</a>. Since then, I started
+              developing Web and cross-platform projects.
             </p>
-
             <p>
-              Fast-forward to today, and I've had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+              I am passionate about coding and anything related to tech. I have good problem solving
+              skills and can handle complex project & coordination work very efficiently to deliver
+              result.
+              <br />
+              Experienced in designing and developing user interfaces, testing and debugging.
+            </p>
+            <p>
+              I have also been awarded<a href="https://www.udacity.com/">Udacity's</a> AWS-Machine
+              Learning{' '}
+              <a href="https://drive.google.com/file/d/16cRIoCxCmJoCj4plXbpsMoM5uYxfOIuf/view?usp=sharing">
+                Scholarship
+              </a>
+              .
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>

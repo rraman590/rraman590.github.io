@@ -153,6 +153,7 @@ const StyledProject = styled.li`
     list-style: none;
 
     li {
+      color: var(--green);
       font-family: var(--font-mono);
       font-size: var(--fz-xxs);
       line-height: 1.75;
@@ -267,7 +268,7 @@ const Projects = () => {
       <h2 ref={revealTitle}>Other Noteworthy Projects</h2>
 
       <Link className="inline-link archive-link" to="/archive" ref={revealArchiveLink}>
-        view the archive
+        View Complete List of Projects/Codes
       </Link>
 
       <ul className="projects-grid">
