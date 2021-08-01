@@ -52,7 +52,7 @@ const Hero = () => {
     return () => clearTimeout(timeout);
   }, []);
 
-  const one = <h1>Hi, my name is</h1>;
+  const one = <h1>Hello World!, my name is</h1>;
   const two = <h2 className="big-heading">Piyush Pandey.</h2>;
   const three = <h3 className="big-heading">I love exploring new things.</h3>;
   const four = (
@@ -63,9 +63,9 @@ const Hero = () => {
       </p>
 
       <p>
-        Currently I am pursuing B.Tech in Computer Science Engineering at{' '}
+        Currently, I am pursuing B.Tech in Computer Science Engineering at{' '}
         <a href="https://bvucoepune.edu.in/" target="_blank" rel="noreferrer">
-          Bharati Vidyapeeth College of Enginnering, Pune
+          Bharati Vidyapeeth College of Engineering, Pune
         </a>
       </p>
       <p>

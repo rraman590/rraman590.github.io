@@ -137,18 +137,18 @@ const About = () => {
             <p>
               Hello! Interestingly, I have been a student of Maths in my high school and got
               introduced to programming in my freshman year at {''}
-              <a href="https://bvucoepune.edu.in/">BVUCOE, Pune</a>. Since then, I started
-              developing Web and cross-platform projects.
+              <a href="https://bvucoepune.edu.in/">BVUCOE, Pune</a>. Since then, I have started
+              developing web and cross-platform projects.
             </p>
             <p>
-              I am passionate about coding and anything related to tech. I have good problem solving
-              skills and can handle complex project & coordination work very efficiently to deliver
-              result.
+              I am passionate about coding and anything related to tech. I have good problem-solving
+              skills and can handle complex projects & coordinate work very efficiently to deliver
+              results.
               <br />
               Experienced in designing and developing user interfaces, testing and debugging.
             </p>
             <p>
-              I have also been awarded<a href="https://www.udacity.com/"> Udacity's</a> AWS-Machine
+              I have also been awarded <a href="https://www.udacity.com/"> Udacity's</a> AWS-Machine
               Learning{' '}
               <a href="https://drive.google.com/file/d/16cRIoCxCmJoCj4plXbpsMoM5uYxfOIuf/view?usp=sharing">
                 Scholarship
