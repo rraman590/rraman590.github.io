@@ -17,12 +17,8 @@
   </a>
 </p>
 
-![demo](https://raw.githubusercontent.com/bchiang7/v4/main/src/images/demo.png)
+![demo](https://github.com/piyushp00/piyushp00.github.io/blob/main/src/images/demo.png)
 
-
-### TL;DR
-
-Yes, you can fork this repo. Please give me proper credit by linking back to [brittanychiang.com](https://brittanychiang.com). Thanks!
 
 ## 🛠 Installation & Set Up
 
