@@ -148,7 +148,7 @@ const About = () => {
               Experienced in designing and developing user interfaces, testing and debugging.
             </p>
             <p>
-              I have also been awarded<a href="https://www.udacity.com/">Udacity's</a> AWS-Machine
+              I have also been awarded<a href="https://www.udacity.com/"> Udacity's</a> AWS-Machine
               Learning{' '}
               <a href="https://drive.google.com/file/d/16cRIoCxCmJoCj4plXbpsMoM5uYxfOIuf/view?usp=sharing">
                 Scholarship
