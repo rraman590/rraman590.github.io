@@ -77,7 +77,7 @@ const Footer = () => {
     if (process.env.NODE_ENV !== 'production') {
       return;
     }
-    fetch('https://api.github.com/repos/bchiang7/v4')
+    fetch('https://api.github.com/repos/piyushp00/piyushp00.github.io')
       .then(response => response.json())
       .then(json => {
         const { stargazers_count, forks_count } = json;
@@ -106,7 +106,7 @@ const Footer = () => {
 
       <StyledCredit tabindex="-1">
         <a href="https://github.com/piyushp00">
-          <div>Revised by Piyush Pandey</div>
+          <div>Designed &amp; Built by Piyush Pandey</div>
 
           {githubInfo.stars && githubInfo.forks && (
             <div className="github-stats">
