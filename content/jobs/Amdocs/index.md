@@ -1,7 +1,7 @@
 ---
 date: '2022-09-08'
 title: 'Software Engineer'
-company: 'Amdocs Developement Centre, India LLP'
+company: 'Amdocs'
 location: 'India'
 range: 'Sept 2022 - Present'
 url: 'https://www.amdocs.com/'
