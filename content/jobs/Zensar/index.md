@@ -11,4 +11,4 @@ url: 'https://www.zensar.com/'
 
 - Learned about various software development technologies and concepts.
 
-- Worked with SQL for database management.
+- Worked with MySQL for database management.

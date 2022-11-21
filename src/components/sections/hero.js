@@ -72,12 +72,7 @@ const Hero = () => {
         Outside work, I share tech content and resources on{' '}
         <a href="https://twitter.com/Piyushp00" target="_blank" rel="noreferrer">
           Twitter
-        </a>{' '}
-        or create amateur #PureCSS{' '}
-        <a href="https://codepen.io/piyushp00" target="_blank" rel="noreferrer">
-          Codepen
-        </a>
-        . Off-screen, I love to read books and I also love rockets.🚀🚀
+        </a>. Off-screen, I love to read books and I also love rockets.🚀🚀
       </p>
     </div>
   );
