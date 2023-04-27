@@ -9,6 +9,6 @@ url: 'https://www.zensar.com/'
 
 - Used different frameworks and tools for performing various tasks given during internships.
 
-- Learned about various software development technologies and concepts.
+- Looked for ways to increase team efficiency through tooling or workflow enhancements.
 
 - Worked with MySQL for database management.

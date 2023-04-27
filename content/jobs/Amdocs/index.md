@@ -9,4 +9,8 @@ url: 'https://www.amdocs.com/'
 
 - Responsible for Comcast project as part of the Digital Delivery team.
 
-- Responsible for the development, testing and deployment of Real-Time Billing product as part of the Amdocs Technology team.
+- Developed various web services and supporting APIs for API Automation for Comcast projects, reducing resource costs by 35%.
+
+- Created the API automated task which saved significant time in performing various operations.
+
+- Integrated Grafana support with Python for various insights and statistics for USCC.
